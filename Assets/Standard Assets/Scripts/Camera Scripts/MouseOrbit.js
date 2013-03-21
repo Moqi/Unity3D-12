@@ -24,8 +24,8 @@ function Start () {
 
 function LateUpdate () {
     if (target) {
-        //x += Input.GetAxis("Mouse X") * xSpeed * 0.02;
-        //y -= Input.GetAxis("Mouse Y") * ySpeed * 0.02;
+        x += Input.GetAxis("Mouse X") * xSpeed * 0.02;
+        y -= Input.GetAxis("Mouse Y") * ySpeed * 0.02;
  		
  		y = ClampAngle(y, yMinLimit, yMaxLimit);
  		       
