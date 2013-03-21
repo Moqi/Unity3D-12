@@ -17,6 +17,18 @@ public class tankPlayer : tank {
 	void Start () {
 	}	
 	void Update () {
+//     	     _thisController.Move(
+//      	 _thisTransform.forward * 
+//      	 moveSpeed * Time.deltaTime * 
+//      	 Input.GetAxis("Vertical"));
+//	
+//   	     Quaternion rot = Quaternion.AngleAxis(
+//   	         turnSpeed * Time.deltaTime * 
+//   	         Input.GetAxis("Horizontal"),
+//    	            Vector3.up);
+//
+//    	    _thisTransform.rotation *= rot;
+// mb smth like this?
 		if(typeControll==1){
 				if(Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.A)){
 					ForceTank(speed, 0);			
