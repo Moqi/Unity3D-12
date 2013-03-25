@@ -1,6 +1,9 @@
-[Ll]ibrary/
-[Tt]emp/
+[Ll]ibrary/FailedAssetImports.txt
+[Ll]ibrary/cache/
+[Ll]ibrary/previews/
+[Ll]ibrary/ScriptAssemblies
 [Oo]bj/
+[Tt]emp/
 [Bb]uilds/
 
 *.csproj
@@ -13,3 +16,5 @@
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+
