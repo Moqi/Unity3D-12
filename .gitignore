@@ -1,7 +1,14 @@
+[Ll]ibrary/AssetImportState
+[Ll]ibrary/AssetServerCacheV3
 [Ll]ibrary/FailedAssetImports.txt
-[Ll]ibrary/cache/
-[Ll]ibrary/previews/
 [Ll]ibrary/ScriptAssemblies
+[Ll]ibrary/ScriptMapper
+[Ll]ibrary/assetDatabase3
+[Ll]ibrary/cache
+[Ll]ibrary/expandedItems
+[Ll]ibrary/metadata
+[Ll]ibrary/previews
+[Ll]ibrary/guidmapper
 [Oo]bj/
 [Tt]emp/
 [Bb]uilds/
