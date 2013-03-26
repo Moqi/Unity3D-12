@@ -24,5 +24,7 @@ public class CamBehaviour : MonoBehaviour
         _thisTransform.rotation =
             Quaternion.LookRotation(
                 Vector3.zero - _thisTransform.position);
+        // I need more effective way to do such things, do you know one?
+        // more than that, now camera slowly going down, and it will lay on the ground after 5-10 minutes
     }
 }
