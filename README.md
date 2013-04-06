@@ -1,4 +1,4 @@
-I hope this repository will be quite comfortable in use
+Project diagram are available to open on https://www.draw.io/
 =======
 
 Projects, sources, content
